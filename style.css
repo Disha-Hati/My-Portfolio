@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,500;1,300&display=swap');
+
+body{
+    font-family: 'Piazzolla', serif;
+    color: rgb(72, 114, 240);
+}
+
+.top-navigation{
+    background-color: royalblue;
+    color: white;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    padding: 0.6rem;
+
+}
+
+.top-navigation .list{
+    text-align: right;
+}
+
+.top-navigation .heading{
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding-left: 0.5rem;
+    word-spacing: 0.5rem;
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.top-navigation .link-active{
+    font-weight: bolder;
+}
+
+.inline-top{
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 0.9rem;
+}
+
+
+.img{
+    height: 600px;
+    float: right;
+    padding-right: 5rem;
+    padding-top: 4.5rem;
+    padding-bottom: 4rem;
+}
+
+.main{
+    max-width: 900px;
+    padding-right: 0.9rem;
+}
+
+.s-one{
+    background-color:#dadee0;
+    padding-top: 0.3rem;
+    padding-bottom: 00.3rem;
+   
+}
+
+.newspan{
+    color: #94A3B8;
+}
+
+.s-two{
+    padding: 2rem;
+}
+
+
+.inline-bottom{
+    display: inline;
+    padding-left: 0.2rem;
+    padding-right: 0.9rem;
+    
+}
+
+.bottom-navigation{
+    background-color: royalblue;
+    color: white;
+    border-bottom-right-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    padding-bottom: 1rem;
+}
+
+.bottom-navigation .heading{
+    font-weight: bold;
+    font-size: 1.7rem;
+    word-spacing: 0.6rem;
+    padding-left: 0.9rem;
+}
+
+.bottom-navigation .list{
+    text-align: right;
+    padding:0.9rem
+}
+
