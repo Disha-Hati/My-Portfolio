@@ -120,7 +120,6 @@ body{
     max-width: 400px;
     display: block;
     height: 500px;
-    float: left;
 }
 
 .box{
@@ -162,4 +161,26 @@ body{
     background-color: #d4ebfa;
     padding: 3rem;
     display: block;
+}
+
+.blog-main{
+    padding-left: 0.1rem;
+    text-align: right;
+}
+
+.blog-heading{
+    background-color: #4169e1 ;
+    color: white;
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    padding: 0.9rem 6rem ;
+    display: block;
+    max-width: 110px;
+    text-align: center;
+    
+
+}
+
+.blog-subhead{
+    text-align: right;
 }
