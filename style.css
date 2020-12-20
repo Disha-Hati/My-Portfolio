@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,500;1,300&display=swap');
 
+:root {
+    --primary-theme:#4169e1:
+}
+
 body{
     font-family: 'Piazzolla', serif;
-    color: rgb(72, 114, 240);
+    color:  #4169e1;
 }
 
 .top-navigation{
-    background-color: royalblue;
+    background-color: #4169e1;
     color: white;
     border-top-left-radius: 0.4rem;
     border-top-right-radius: 0.4rem;
     padding: 0.6rem;
+    padding-left: 0rem;
 
 }
 
@@ -53,15 +58,16 @@ body{
     padding-bottom: 4rem;
 }
 
+
+
 .main{
     max-width: 900px;
-    padding-right: 0.9rem;
+    padding-right: 0.1rem;
 }
 
 .s-one{
     background-color:#dadee0;
-    padding-top: 0.3rem;
-    padding-bottom: 00.3rem;
+    padding: 2rem;
    
 }
 
@@ -82,7 +88,7 @@ body{
 }
 
 .bottom-navigation{
-    background-color: royalblue;
+    background-color: #4169e1;
     color: white;
     border-bottom-right-radius: 0.4rem;
     border-bottom-left-radius: 0.4rem;
@@ -101,3 +107,24 @@ body{
     padding:0.9rem
 }
 
+.project-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.pro-heading{
+    text-align: center;
+}
+
+.blog-img{
+    max-width: 400px;
+    display: block;
+    height: 500px;
+}
+
+.box{
+    background-color: #c1e6fa;
+    padding: 0.3rem;
+    max-width: 600rem;
+}
