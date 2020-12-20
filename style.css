@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,500;1,300&display=swap');
 
-:root {
-    --primary-theme:#4169e1:
-}
 
 body{
     font-family: 'Piazzolla', serif;
@@ -32,6 +29,8 @@ body{
 
 .list{
     list-style: none;
+    padding-left: 0rem;
+    
 }
 
 .link{
@@ -121,10 +120,46 @@ body{
     max-width: 400px;
     display: block;
     height: 500px;
+    float: left;
 }
 
 .box{
     background-color: #e2e7f8;
-    padding: 0.3rem;
-    max-width: 600rem;
+    padding: 3rem;
+    display: block;
+}
+
+.container-center{
+    max-width: 550px;
+    margin: auto;
+}
+
+.pro-link-1{
+    text-decoration: none;
+    background-color:#4169e1 ;
+    color: white;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem;
+    display: block;
+    max-width: 110px;
+    margin: 1rem 1rem 1rem 0rem;
+    text-align: center;
+}
+
+.pro-link-2{
+    text-decoration: none;
+    background-color:#b4bcc7 ;
+    color: #4169e1;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem;
+    display: block;
+    max-width: 110px;
+    margin: 1rem 1rem 1rem 0rem;
+    text-align: center;
+}
+
+.blog-box{
+    background-color: #d4ebfa;
+    padding: 3rem;
+    display: block;
 }
