@@ -116,21 +116,18 @@ body{
     text-align: center;
 }
 
-.blog-img{
-    max-width: 400px;
-    display: block;
-    height: 500px;
-}
 
 .box{
-    background-color: #e2e7f8;
-    padding: 3rem;
-    display: block;
+   
 }
 
 .container-center{
     max-width: 550px;
     margin: auto;
+    padding: 2rem;
+    background-color: #e2e7f8;
+    padding: 3rem;
+    display: block;
 }
 
 .pro-link-1{
@@ -164,7 +161,7 @@ body{
 }
 
 .blog-main{
-    padding-left: 0.1rem;
+    padding-left: 0.4rem;
     text-align: right;
 }
 
@@ -173,7 +170,10 @@ body{
     color: white;
     border-top-right-radius: 4rem;
     border-bottom-right-radius: 4rem;
-    padding: 0.9rem 6rem ;
+    padding-left: 4.5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: block;
     max-width: 110px;
     text-align: center;
@@ -183,4 +183,10 @@ body{
 
 .blog-subhead{
     text-align: right;
+}
+
+.main-blog-head{
+    text-align: right;
+    padding-right: 2.5rem;
+    font-weight: bolder;
 }
