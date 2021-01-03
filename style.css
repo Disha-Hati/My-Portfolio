@@ -50,11 +50,12 @@ body{
 
 
 .img{
-    height: 600px;
+    height: 400px;
     float: right;
     padding-right: 5rem;
     padding-top: 4.5rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -198,4 +199,19 @@ body{
     padding-top: 4.5rem;
     padding-bottom: 4rem;
 
+}
+
+.bottom-link{
+    text-decoration: none;
+    background-color: #b4bcc7 ;
+    color:#4169e1;
+    border-radius: 0.4rem;
+    padding: 1rem 1rem;
+    max-width: 110px;
+    text-align: right;
+    display: inline;
+}
+
+.bottom-list{
+    text-align: right;
 }
